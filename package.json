@@ -1,0 +1,30 @@
+{
+  "name": "rdf-parser-rdfjs-json",
+  "version": "0.0.1",
+  "description": "New line separated JSON parser to RDFJS quad stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "keywords": [
+    "rdf",
+    "rdfjs",
+    "rdf-ext",
+    "parser",
+    "json",
+    "stream"
+  ],
+  "author": "Tomáš Klapka <tomas@klapka.cz>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "rdf-ext": "^1.1.0",
+    "standard": "^9.0.1"
+  },
+  "dependencies": {
+    "rdf-data-model": "^1.0.0",
+    "rdf-sink": "^1.0.0",
+    "readable-stream": "^2.2.9",
+    "split2": "^2.1.1"
+  }
+}
